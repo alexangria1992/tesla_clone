@@ -12,7 +12,8 @@
 
 .header__middle {
   border: 1px solid aqua;
-  display: none;
+  display: flex;
+  align-items: center;
 }
 
 .header__left {
@@ -49,4 +50,8 @@
 
 .header__nav__btn.menu__btn {
   display: inline-block;
+}
+
+.header__middle .header__nav__btn {
+  margin-right: 2rem;
 }
